@@ -1,13 +1,13 @@
 variable "aws_access_key" {
   description = "AWS access key"
   type        = string
-  default     = ""
+  default     = "AKIA5WNNUT2GJF7ZOV3C"
 }
 
 variable "aws_secret_key" {
   description = "AWS secret key"
   type        = string
-  default     = ""
+  default     = "aViiJxlly07diL3xySDFiWSOUzcUZHXnz5KI/+HH"
 }
 
 variable "aws_region" {
@@ -20,7 +20,7 @@ variable "aws_region" {
 variable "ami" {
    type        = string
    description = "Ubuntu AMI ID"
-   default     = "ami-0f5ee92e2d63afc18"
+   default     = "ami-0c7217cdde317cfec"
 }
 
 variable "instance_type" {
